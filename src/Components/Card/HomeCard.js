@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const HomeCard = () => {
   return (
-    <div className='lg:w-1/3 md:w-1/2 p-4 w-full'>
+    <div className=''>
       <Link
         to={`/service-details`}
         className='block relative h-48 rounded overflow-hidden'
